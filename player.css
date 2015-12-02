@@ -1,0 +1,60 @@
+.video {
+  position:absolute;
+  width:1000px;
+  #height:px;
+  display: block;
+}
+.control{
+  position:absolute;
+  margin-top:350px;
+  margin-left:100px;
+}
+.play {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+  padding: 0px;
+  font-size: 25px;
+  background: black;
+  color: white;
+}
+
+.mute {
+  position: relative;
+  display: inline;
+  height: 30px;
+  width: 60px;
+  padding: 0px;
+  font-size: 25px;
+  background: black;
+  color: white;
+}
+
+.slider {
+  position: relative;
+  display: inline;
+  width: 500px;
+}
+
+.volume {
+  -webkit-appearance: slider-vertical;
+  width: 20px;
+  height: 100px;
+}
+
+.url {
+  display: inline;
+  height: 30px;
+  width: 600px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.enter {
+  display: inline;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}

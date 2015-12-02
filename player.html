@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="player.css" type="text/css">
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <script src="js/player.js"></script>
+</head>
+<body>
+  <div class='player'>
+    <video class="video">
+      <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class='control'>
+      <div class="play">Play</div>
+      <div class='mute'>Mute</div>
+      <input class="slider" type="range" min='0' max='100' step='0.01' value='0' />
+      <input class="volume" type="range" min="0.0" max="1" step='0.1' value="0.3" /></br>
+      <input type="text" class='url'></input>
+      <div class='enter'>Enter</div>
+    </div>
+  </div>
+</body>
